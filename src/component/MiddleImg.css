@@ -1,0 +1,51 @@
+.middle-img-container {
+    position: relative;
+    width: 87%;
+    margin: auto;
+  }
+  
+  .middle-img {
+    display: block;
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .middle-text {
+    position: absolute;
+    font-family: Quicksand;
+    top: 50%;
+    transform: translateY(-50%);
+    color:  rgb(62, 145, 114);
+  
+
+  }
+  
+  .right-side-text {
+    right: 8%; /* Adjust this value to move text more left or right */
+    text-align: right;
+  }
+  
+  .middle-text h4 {
+    line-height: 50px;
+    font-weight: 700;
+    font-size: 38px;
+    margin: 5px 0;
+  }
+  
+  .middle-text h3 {
+    font-family: " Poppins,sans-serif";
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(33, 37, 41);
+    font-size: 32px;
+    line-height: 30px;
+    margin: 10px 0;
+  }
+  
+  .middle-text button {
+    
+    margin-top: 10px;
+  }
+  

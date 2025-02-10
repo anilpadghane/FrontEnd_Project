@@ -1,0 +1,41 @@
+.form-handle{
+    width: 400px;
+    border:1px solid grey ;
+}
+.form-handle:hover{
+    border: 1px solid;
+}
+.dropdown{
+    
+    border-radius: 0;
+    border: 1px solid grey;
+    color: gray;
+}
+.btns{
+    border-radius: 1px;
+    border:1px solid grey;
+    background-color: white;
+}
+.btns:hover{
+    color: grey;
+    background-color: white;
+}
+.icon{
+    padding: 10px;
+    border-radius: 10px;
+   font-weight: bold;
+   color: white;
+   background-color:green ;
+}
+.icon-heart{
+    color: white;
+    background-color: green;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.icon-heart:hover{
+    background-color: red;
+    color: white;
+
+}

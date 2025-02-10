@@ -1,0 +1,94 @@
+/* Ensure images are responsive */
+.carousel-image-container {
+    position: relative;
+  }
+  
+  .carousel-overlay {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 20px;
+    border-radius: 10px;
+    width: 85%;
+  }
+  
+  .shop-now-button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #0e0d0d;
+    color:green;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .shop-now-button:hover {
+    background-color: #0f0f0f;
+  }
+  
+  img {
+    object-fit: cover; /* Ensures the image fills the container without distortion */
+    border-radius: 0; /* Optional: adds rounded corners to the images */
+  }
+  
+  /* Two smaller images styling */
+  .image-container {
+    position: relative;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: green;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgba(247, 239, 239, 0);
+    padding: 15px;
+    border-radius: 10px;
+    width: 80%;
+    z-index: 1;
+  }
+  
+  .shop-now-button {
+    padding: 10px 20px;
+    background-color: #080808;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .shop-now-button:hover {
+    background-color: #0a0300;
+  }
+  
+  /* Responsive behavior */
+  @media (max-width: 767px) {
+    .carousel-overlay {
+      font-size: 18px; /* Smaller text on mobile */
+      padding: 15px;
+    }
+  
+    .overlay {
+      font-size: 16px;
+      padding: 10px;
+    }
+  
+    .shop-now-button {
+      font-size: 14px;
+      padding: 8px 15px;
+    }
+  }
+  
