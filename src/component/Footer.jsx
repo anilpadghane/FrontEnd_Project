@@ -41,9 +41,9 @@ const Footer = () => {
           <div className="col-md-3 mb-4">
             <h5>Contact Us</h5>
             <ul className="list-unstyled">
-              <li className="text-light">Email: support@ecommerce.com</li>
-              <li className="text-light">Phone: +1 (123) 456-7890</li>
-              <li className="text-light">Address: 123 Main St, City, Country</li>
+              <li className="text-light">Email: anilapdghane12@gmail.com</li>
+              <li className="text-light">Phone: +91 7066793462</li>
+              <li className="text-light">Address: Ganesh Nagar, Wardha-442001, Maharashtra</li>
             </ul>
             <div className="mt-3">
               <h5>Follow Us</h5>
